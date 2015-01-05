@@ -1,0 +1,91 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:id="@+id/llay" >
+
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/login_label"
+        android:layout_margin="@dimen/abc_text_size_headline_material"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="@dimen/headtextzize" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginBottom="@dimen/abc_action_bar_default_padding_material"
+        android:background="@color/primary_dark_material_dark" />
+
+
+    <EditText
+        android:id="@+id/etname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:maxLength="4"
+        android:textAlignment="center" >
+
+        <requestFocus />
+    </EditText>
+
+    <EditText
+        android:id="@+id/etpwt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="numberPassword"
+        android:maxLength="4"
+        android:textAlignment="center" >
+
+    </EditText>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/abc_text_size_button_material"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/btnsub"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/abc_text_size_button_material"
+            android:text="Submit" />
+
+        <Button
+            android:id="@+id/btnclr"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/abc_text_size_button_material"
+            android:text="Clear" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:layout_margin="@dimen/abc_text_size_body_1_material"
+        android:textSize="@dimen/textsize"
+        android:text= "@string/firstHint" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:layout_margin="@dimen/abc_text_size_body_2_material"
+        android:textSize="@dimen/textsize"
+        android:text="@string/secondHint" />
+
+
+
+</LinearLayout>

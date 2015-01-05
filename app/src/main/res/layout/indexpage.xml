@@ -1,0 +1,325 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="@dimen/activity_vertical_margin"
+    android:gravity="center_horizontal"
+    android:orientation="vertical" >
+
+      <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+          android:gravity="center_horizontal" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:padding="@dimen/abc_text_size_medium_material"
+            android:orientation="vertical" >
+
+            <Button
+                android:id="@+id/btnbstatus57"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:scaleType="center"
+                android:width="@dimen/button_size"
+                android:height="@dimen/button_size"
+                android:onClick="brewStatus"
+                android:background="@drawable/bstatus57" />
+
+            <TextView
+                android:id="@+id/TextView05"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:textSize="@dimen/textsize"
+                android:text="B/Status" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:padding="@dimen/abc_text_size_medium_material"
+            android:orientation="vertical" >
+
+            <Button
+                android:id="@+id/ImageBtn2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:scaleType="fitCenter"
+                android:width="@dimen/button_size"
+                android:height="@dimen/button_size"
+                android:onClick="brewview"
+                android:background="@drawable/flameblack57" />
+
+            <TextView
+                android:id="@+id/TextView04"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:textSize="@dimen/textsize"
+                android:text="Brew" />
+
+        </LinearLayout>
+
+          <LinearLayout
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_gravity="right"
+              android:padding="@dimen/abc_text_size_medium_material"
+              android:orientation="vertical" >
+
+            <Button
+                android:id="@+id/ImageBtn3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:scaleType="fitCenter"
+                android:width="@dimen/button_size"
+                android:height="@dimen/button_size"
+                android:onClick="ferment"
+                android:background="@drawable/yeast57" />
+
+            <TextView
+                android:id="@+id/TextView06"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:textSize="@dimen/textsize"
+                android:text="Ferment" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:padding="@dimen/abc_text_size_medium_material"
+            android:orientation="vertical" >
+
+            <Button
+                android:id="@+id/ImageBtn4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:width="@dimen/button_size"
+                android:height="@dimen/button_size"
+                android:scaleType="fitCenter"
+                android:onClick="condition"
+                android:background="@drawable/hopsblack57" />
+
+            <TextView
+                android:id="@+id/TextView02"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:textSize="@dimen/textsize"
+                android:text="Condition" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:padding="@dimen/abc_text_size_medium_material"
+            android:orientation="vertical" >
+
+            <Button
+                android:id="@+id/ImageBtn5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:width="@dimen/button_size"
+                android:height="@dimen/button_size"
+                android:scaleType="fitCenter"
+                android:onClick="imgClick"
+                android:background="@drawable/c_calendar_black" />
+
+            <TextView
+                android:id="@+id/TextView01"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:textSize="@dimen/textsize"
+                android:text="C/Calendar" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:padding="@dimen/abc_text_size_medium_material"
+            android:orientation="vertical" >
+
+            <Button
+                android:id="@+id/ImageBtn6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:width="@dimen/button_size"
+                android:height="@dimen/button_size"
+                android:scaleType="fitCenter"
+                android:onClick="transfer"
+                android:background="@drawable/valveblack57" />
+
+            <TextView
+                android:id="@+id/TextView03"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:textSize="@dimen/textsize"
+                android:text="Transfer" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:padding="@dimen/abc_text_size_medium_material"
+            android:orientation="vertical" >
+
+            <Button
+                android:id="@+id/imageBtn7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:width="@dimen/button_size"
+                android:height="@dimen/button_size"
+                android:scaleType="fitCenter"
+                android:onClick="brewPackage"
+                android:background="@drawable/packblack57" />
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:textSize="@dimen/textsize"
+                android:text="Package" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:padding="@dimen/abc_text_size_medium_material"
+            android:orientation="vertical" >
+
+            <Button
+                android:id="@+id/imageBtn8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:width="@dimen/button_size"
+                android:height="@dimen/button_size"
+                android:scaleType="fitCenter"
+                android:onClick="imgClick"
+                android:background="@drawable/pack_calendar_black" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:textSize="@dimen/textsize"
+                android:text="P/Calendar" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:padding="@dimen/abc_text_size_medium_material"
+            android:orientation="vertical" >
+
+            <Button
+                android:id="@+id/imageBtn9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:width="@dimen/button_size"
+                android:height="@dimen/button_size"
+                android:background="@drawable/phycount57"
+                android:onClick="imgClick"
+                android:scaleType="centerCrop" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:textSize="@dimen/textsize"
+                android:text="Phy Count" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:gravity="left" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:padding="@dimen/abc_text_size_medium_material"
+            android:orientation="vertical" >
+
+            <Button
+                android:id="@+id/imageBtn10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:width="@dimen/button_size"
+                android:height="@dimen/button_size"
+                android:onClick="imgClick"
+                android:background="@drawable/settingsblack57" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:textSize="@dimen/textsize"
+                android:text="Admin" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

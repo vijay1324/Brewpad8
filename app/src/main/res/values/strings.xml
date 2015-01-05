@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Brewpad8</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- Login Page -->
+    <string name="header_TextView">Password</string>
+    <string name="username_edittext">Enter Username</string>
+    <string name="password_edittext">Enter Password</string>
+    <string name="login_btn">Login</string>
+    <string name="clear_btn">Clear</string>
+    <string name="firstHint">If you have forgotten your passcode, login to BearRun and Help>Resend Passcode</string>
+    <string name="secondHint">All users within the brewery can use any device authorized for Brewpad</string>
+
+    <!-- Login Menu -->
+    <string name="forget_pw">Forget Password</string>
+
+    <!-- Label -->
+    <string name="login_label">Login</string>
+    <string name="title_activity_bstatus">B/Status</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_brew">Brew</string>
+    <string name="title_activity_brew_it">Brew It!</string>
+
+</resources>

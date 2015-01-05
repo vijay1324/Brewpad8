@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:layout_margin="@dimen/activity_horizontal_margin"
+    android:orientation="vertical" >
+    
+ 
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:padding="@dimen/abc_text_size_medium_material"
+            android:orientation="vertical" >
+
+            <Button
+                android:id="@+id/Btnbstatus"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:scaleType="center"
+                android:width="@dimen/button_size"
+                android:height="@dimen/button_size"
+                android:onClick="brewStatus"
+                android:background="@drawable/bstatus57" />
+
+            <TextView
+                android:id="@+id/Tvbstatus"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:textSize="@dimen/textsize"
+                android:text="B/Status" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:padding="@dimen/abc_text_size_medium_material"
+            android:orientation="vertical" >
+
+            <Button
+                android:id="@+id/Btnbrew"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:scaleType="center"
+                android:width="@dimen/button_size"
+                android:height="@dimen/button_size"
+                android:onClick="brewview"
+                android:background="@drawable/flameblack57" />
+
+            <TextView
+                android:id="@+id/Tvbrew"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:textSize="@dimen/textsize"
+                android:text="Brew" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:padding="@dimen/abc_text_size_medium_material"
+            android:orientation="vertical" >
+
+            <Button
+                android:id="@+id/Btnferment"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:scaleType="center"
+                android:width="@dimen/button_size"
+                android:height="@dimen/button_size"
+                android:onClick="ferment"
+                android:background="@drawable/yeast57" />
+
+            <TextView
+                android:id="@+id/Tvferment"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:textSize="@dimen/textsize"
+                android:text="Ferment" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:padding="@dimen/abc_text_size_medium_material"
+            android:orientation="vertical" >
+
+            <Button
+                android:id="@+id/Btncondition"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:scaleType="center"
+                android:width="@dimen/button_size"
+                android:height="@dimen/button_size"
+                android:onClick="condition"
+                android:background="@drawable/hopsblack57" />
+
+            <TextView
+                android:id="@+id/Tvcondition"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:textSize="@dimen/textsize"
+                android:text="Condition" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:padding="@dimen/abc_text_size_medium_material"
+            android:orientation="vertical" >
+
+            <Button
+                android:id="@+id/Btnccalender"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:scaleType="center"
+                android:width="@dimen/button_size"
+                android:height="@dimen/button_size"
+                android:onClick="imgClick"
+                android:background="@drawable/c_calendar_black" />
+
+            <TextView
+                android:id="@+id/Tvccalender"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:textSize="@dimen/textsize"
+                android:text="C/Calendar" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="25dp" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:padding="@dimen/abc_text_size_medium_material"
+            android:orientation="vertical" >
+
+            <Button
+                android:id="@+id/Btntransfer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:scaleType="center"
+                android:width="@dimen/button_size"
+                android:height="@dimen/button_size"
+                android:onClick="transfer"
+                android:background="@drawable/valveblack57" />
+
+            <TextView
+                android:id="@+id/Tvtransfer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:textSize="@dimen/textsize"
+                android:text="Transfer" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:padding="@dimen/abc_text_size_medium_material"
+            android:orientation="vertical" >
+
+            <Button
+                android:id="@+id/Btnpackage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:scaleType="center"
+                android:width="@dimen/button_size"
+                android:height="@dimen/button_size"
+                android:onClick="brewPackage"
+                android:background="@drawable/packblack57" />
+
+            <TextView
+                android:id="@+id/Tvpackage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:textSize="@dimen/textsize"
+                android:text="Package" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:padding="@dimen/abc_text_size_medium_material"
+            android:orientation="vertical" >
+
+            <Button
+                android:id="@+id/Btnpcalender"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:scaleType="center"
+                android:width="@dimen/button_size"
+                android:height="@dimen/button_size"
+                android:onClick="imgClick"
+                android:background="@drawable/pack_calendar_black" />
+
+            <TextView
+                android:id="@+id/Tvpcalender"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:textSize="@dimen/textsize"
+                android:text="P/Calendar" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:padding="@dimen/abc_text_size_medium_material"
+            android:orientation="vertical" >
+
+            <Button
+                android:id="@+id/Btnphycount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:scaleType="center"
+                android:width="@dimen/button_size"
+                android:height="@dimen/button_size"
+                android:onClick="imgClick"
+                android:background="@drawable/phycount57" />
+
+            <TextView
+                android:id="@+id/Tvphycount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:textSize="@dimen/textsize"
+                android:text="Phy Count" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:padding="@dimen/abc_text_size_medium_material"
+            android:orientation="vertical" >
+
+            <Button
+                android:id="@+id/btnadmin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:scaleType="center"
+                android:width="@dimen/button_size"
+                android:height="@dimen/button_size"
+                android:onClick="imgClick"
+                android:background="@drawable/settingsblack57" />
+
+            <TextView
+                android:id="@+id/tvadmin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:textSize="@dimen/textsize"
+                android:text="Admin" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
